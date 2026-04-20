@@ -9,3 +9,12 @@ let angka1 = 10;
 let angka2 = 20;
 document.writeln(`</br>`);
 document.writeln(`${angka1 * angka2}`);
+document.writeln(`</br>`);
+
+let paragraf = `lorem ipsum dolor sit amet consectetur, 
+adipisicing elit. Voluptas, voluptate!
+Lorem ipsum dolor sit amet consectetur 
+adipisicing elit. Voluptas, voluptate!`;
+
+document.writeln(paragraf);
+
