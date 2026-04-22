@@ -1,0 +1,1 @@
+console.log(`Dia berkata: \"Saya Belajar Javascript\"`);
