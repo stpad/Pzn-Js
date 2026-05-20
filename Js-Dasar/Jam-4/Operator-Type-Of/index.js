@@ -11,3 +11,6 @@ if (typeof data === "number") {
 else {
     console.log("Data ini adalah Object");
 }
+
+let data2 = prompt("Masukkan data apa aja: ");
+document.write(typeof data2); 
