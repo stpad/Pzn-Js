@@ -1,4 +1,6 @@
 let data = ["JavaScript", "Python", "Java", "C++"];
+let resultData = 1 in data;
+document.writeln(`resultData: ${resultData}` + "</br>"); // Output: true
 document.writeln(data[1]); // Output: "Python"
 document.writeln("<br>");
 document.writeln(data[2]); // Output: "Java"
