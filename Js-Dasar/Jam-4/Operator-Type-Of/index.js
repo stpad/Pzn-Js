@@ -1,4 +1,4 @@
-let data = null;
+let data = "1";
 if (typeof data === "number") {
     console.log("Data ini adalah Number");
 } else if (typeof data === "string") {
@@ -12,5 +12,5 @@ else {
     console.log("Data ini adalah Object");
 }
 
-let data2 = prompt("Masukkan data apa aja: ");
-document.write(typeof data2); 
+// let data2 = prompt("Masukkan data apa aja: ");
+// document.write(typeof data2); 
