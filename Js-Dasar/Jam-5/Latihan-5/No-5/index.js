@@ -1,5 +1,8 @@
-function namaPanjang(nama = "Sutan Gosling") {
-    return `Halo ${nama}`;
+nama = "Sutan Gosling";
+
+function sapa(nama) {
+    document.write(`Halo ${nama}`);
 }
 
-document.write(namaPanjang());
+
+sapa(nama);
