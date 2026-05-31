@@ -11,7 +11,6 @@ let panggil = namaPanjang(a, b);
 document.writeln(`<h1>${panggil}</h1>`);
 
 
-
 //  kalo return nya banyak
 
 function nilaiUjian(nilai){
