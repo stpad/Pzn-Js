@@ -1,9 +1,8 @@
 function cekNilai(nilai){
     if (nilai >=75){
-        document.write("Lulus");
+        return "Lulus";
     } else {
-        document.write("Tidak Lulus");
+        return "Tidak Lulus";
     }
 }
-
-cekNilai(80);
+document.write(cekNilai(80));

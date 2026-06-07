@@ -1,12 +1,25 @@
-let nama = prompt(`Masukkan nama`);
-let alamat = prompt(`Masukkan alamat`);
-let produk = [];
-for (let i = 0; i < produk.length; i++){
-    let item = prompt(`Masukkan produk ke-${i + 1}`);
-    produk.push(item);
-}
 function buatPesanan(nama = "Guest", alamat = "Tidak Tersedia", ...produk){
+    let pesanan = {
+        nama: prompt(`Masukkan nama`) || nama,
+        alamat: prompt(`Masukkan alamat`) || alamat,
+        produk: []
+    };
+    do {
+        let item = prompt(`Masukkan produk ke-${pesanan.produk.length + 1} (ketik "berhenti" untuk selesai)`);
+        if (item === "") {
+            alert("Produk tidak boleh kosong. Silakan masukkan produk yang valid.");
+        } else if (item === null) {
+            break;
+        }
+         else if  (item.toLowerCase() === "berhenti") {
+            break;
+        } 
+        else {
+            pesanan.produk.push(item);
+        }
+    } while (true);
 
+    return pesanan;
 }
 
 

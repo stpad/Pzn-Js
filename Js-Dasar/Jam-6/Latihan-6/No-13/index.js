@@ -1,6 +1,6 @@
 function nama (nama){
-    return prompt(`Masukkan nama ${nama}`);
+    return `Nama Anda adalah ${nama}`;
 }
 
-let panggilnama = nama();
-document.write(`Nama Anda adalah ${panggilnama}`);
+let panggilnama = nama;
+document.write(panggilnama(prompt("isi nama antum")));

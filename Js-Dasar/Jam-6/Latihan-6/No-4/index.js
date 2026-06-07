@@ -1,4 +1,4 @@
-function buatUser(nama, email = "tidak tersedia") {
+function buatUser(nama, email) {
     document.writeln("Nama: " + nama + ", Email: " + email);
 
 }

@@ -3,7 +3,7 @@ function total(...angka) {
     for (let i of angka) {
         total += i;
     }
-    document.writeln(`Total: ${total}`);
+    return total;
 }
 
-total (10, 20, 30);
+document.writeln(`Total: ${total(10, 20, 30)}`);
